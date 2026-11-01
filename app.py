@@ -160,6 +160,9 @@ html,body,[class*="css"]{font-family:'Inter',sans-serif!important}
 [data-testid="stSidebar"] .stRadio label:hover{background:#1e3a5f!important;border-left-color:#60a5fa!important}
 [data-testid="stSidebar"] .stRadio label p{font-size:0.97rem!important;font-weight:500!important;margin:0!important;color:#e2e8f0!important}
 [data-testid="stSidebar"] .stRadio [data-baseweb="radio"]{display:none!important}
+[data-testid="stSidebar"] .stRadio div[role="radiogroup"]{display:flex!important;flex-direction:column!important;gap:2px!important}
+[data-testid="stSidebar"] .stRadio div[role="radiogroup"] label{display:flex!important;align-items:center!important;padding:11px 16px!important;border-radius:10px!important;cursor:pointer!important;color:#e2e8f0!important;background:transparent!important}
+[data-testid="stSidebar"] .stRadio div[role="radiogroup"] label span{color:#e2e8f0!important;font-size:0.97rem!important;font-weight:500!important}
 .protest-card{background:#fff;border:1px solid #e2e8f0;border-radius:16px;overflow:hidden;margin-bottom:1rem;box-shadow:0 2px 8px rgba(0,0,0,0.06);transition:all 0.3s}
 .protest-card:hover{transform:translateY(-3px);box-shadow:0 8px 24px rgba(0,0,0,0.12)}
 .card-hdr{background:linear-gradient(135deg,#1a3a5c,#0d2137);padding:16px 20px 12px}
