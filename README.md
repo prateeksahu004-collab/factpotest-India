@@ -4,7 +4,7 @@
 Built for FORGE Buildathon 2026 by NxtWave Launchpad.
 
 ## What it does
-- Citizens can browse 10 real Indian protests and submit opinions (Support/Oppose/Neutral)
+- Citizens can browse  real Indian protests and submit opinions (Support/Oppose/Neutral)
 - Groq AI scores each opinion's credibility (0–100) based on reasoning quality
 - Authority Portal for government officials to submit official replies
 - AI Civic Reports generate real-time protest sentiment summaries
