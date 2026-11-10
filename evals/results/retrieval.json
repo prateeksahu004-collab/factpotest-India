@@ -1,0 +1,36 @@
+{
+  "suite": "retrieval",
+  "generated_at": "2026-11-10T16:33:31Z",
+  "n_queries": 75,
+  "kb_chunks": 760,
+  "note": "relaxed counts the gold passage's overlapping neighbours (+/-1 chunk) as hits",
+  "results": {
+    "bm25": {
+      "recall@1": 0.7733,
+      "recall@3": 0.9733,
+      "recall@5": 1.0,
+      "relaxed_recall@1": 0.92,
+      "relaxed_recall@3": 0.9733,
+      "relaxed_recall@5": 1.0,
+      "mrr@10": 0.8778
+    },
+    "dense": {
+      "recall@1": 0.6533,
+      "recall@3": 0.9733,
+      "recall@5": 1.0,
+      "relaxed_recall@1": 0.8533,
+      "relaxed_recall@3": 0.9733,
+      "relaxed_recall@5": 1.0,
+      "mrr@10": 0.8104
+    },
+    "hybrid": {
+      "recall@1": 0.7733,
+      "recall@3": 0.9733,
+      "recall@5": 1.0,
+      "relaxed_recall@1": 0.9067,
+      "relaxed_recall@3": 0.9733,
+      "relaxed_recall@5": 1.0,
+      "mrr@10": 0.8733
+    }
+  }
+}

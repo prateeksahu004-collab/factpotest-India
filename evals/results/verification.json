@@ -1,0 +1,692 @@
+{
+  "suite": "verification",
+  "generated_at": "2026-11-10T16:59:09Z",
+  "configs": {
+    "hybrid_k3__gpt-oss-20b": {
+      "accuracy": 0.9333,
+      "macro_f1": 0.9291,
+      "per_class": {
+        "SUPPORTED": {
+          "precision": 1.0,
+          "recall": 0.9744,
+          "f1-score": 0.987,
+          "support": 39.0
+        },
+        "REFUTED": {
+          "precision": 0.8947,
+          "recall": 0.9444,
+          "f1-score": 0.9189,
+          "support": 36.0
+        },
+        "NOT_ENOUGH_INFO": {
+          "precision": 0.8966,
+          "recall": 0.8667,
+          "f1-score": 0.8814,
+          "support": 30.0
+        }
+      },
+      "confusion_matrix": {
+        "labels": [
+          "SUPPORTED",
+          "REFUTED",
+          "NOT_ENOUGH_INFO"
+        ],
+        "matrix": [
+          [
+            38,
+            0,
+            1
+          ],
+          [
+            0,
+            34,
+            2
+          ],
+          [
+            0,
+            4,
+            26
+          ]
+        ]
+      },
+      "n": 105,
+      "model": "openai/gpt-oss-20b",
+      "missing": 0,
+      "tokens_per_claim": 647.8,
+      "seconds_per_claim_incl_rate_limit": 7.12,
+      "per_claim": [
+        {
+          "id": "G001",
+          "label": "SUPPORTED",
+          "pred": "SUPPORTED",
+          "confidence": 0.99
+        },
+        {
+          "id": "G002",
+          "label": "REFUTED",
+          "pred": "REFUTED",
+          "confidence": 0.99
+        },
+        {
+          "id": "G003",
+          "label": "NOT_ENOUGH_INFO",
+          "pred": "REFUTED",
+          "confidence": 0.98
+        },
+        {
+          "id": "G004",
+          "label": "SUPPORTED",
+          "pred": "SUPPORTED",
+          "confidence": 0.99
+        },
+        {
+          "id": "G005",
+          "label": "REFUTED",
+          "pred": "REFUTED",
+          "confidence": 0.98
+        },
+        {
+          "id": "G007",
+          "label": "SUPPORTED",
+          "pred": "SUPPORTED",
+          "confidence": 0.99
+        },
+        {
+          "id": "G008",
+          "label": "REFUTED",
+          "pred": "REFUTED",
+          "confidence": 0.99
+        },
+        {
+          "id": "G009",
+          "label": "NOT_ENOUGH_INFO",
+          "pred": "NOT_ENOUGH_INFO",
+          "confidence": 0.85
+        },
+        {
+          "id": "G010",
+          "label": "SUPPORTED",
+          "pred": "SUPPORTED",
+          "confidence": 0.99
+        },
+        {
+          "id": "G011",
+          "label": "REFUTED",
+          "pred": "REFUTED",
+          "confidence": 0.99
+        },
+        {
+          "id": "G012",
+          "label": "NOT_ENOUGH_INFO",
+          "pred": "NOT_ENOUGH_INFO",
+          "confidence": 0.85
+        },
+        {
+          "id": "G013",
+          "label": "SUPPORTED",
+          "pred": "SUPPORTED",
+          "confidence": 0.99
+        },
+        {
+          "id": "G014",
+          "label": "REFUTED",
+          "pred": "REFUTED",
+          "confidence": 0.99
+        },
+        {
+          "id": "G015",
+          "label": "NOT_ENOUGH_INFO",
+          "pred": "NOT_ENOUGH_INFO",
+          "confidence": 0.85
+        },
+        {
+          "id": "G016",
+          "label": "SUPPORTED",
+          "pred": "SUPPORTED",
+          "confidence": 0.99
+        },
+        {
+          "id": "G017",
+          "label": "REFUTED",
+          "pred": "REFUTED",
+          "confidence": 0.99
+        },
+        {
+          "id": "G018",
+          "label": "NOT_ENOUGH_INFO",
+          "pred": "NOT_ENOUGH_INFO",
+          "confidence": 0.6
+        },
+        {
+          "id": "G019",
+          "label": "SUPPORTED",
+          "pred": "SUPPORTED",
+          "confidence": 0.95
+        },
+        {
+          "id": "G020",
+          "label": "REFUTED",
+          "pred": "REFUTED",
+          "confidence": 0.95
+        },
+        {
+          "id": "G021",
+          "label": "NOT_ENOUGH_INFO",
+          "pred": "NOT_ENOUGH_INFO",
+          "confidence": 0.6
+        },
+        {
+          "id": "G022",
+          "label": "SUPPORTED",
+          "pred": "SUPPORTED",
+          "confidence": 0.95
+        },
+        {
+          "id": "G023",
+          "label": "REFUTED",
+          "pred": "REFUTED",
+          "confidence": 0.95
+        },
+        {
+          "id": "G024",
+          "label": "NOT_ENOUGH_INFO",
+          "pred": "REFUTED",
+          "confidence": 0.9
+        },
+        {
+          "id": "G025",
+          "label": "SUPPORTED",
+          "pred": "SUPPORTED",
+          "confidence": 0.95
+        },
+        {
+          "id": "G026",
+          "label": "REFUTED",
+          "pred": "REFUTED",
+          "confidence": 0.9
+        },
+        {
+          "id": "G027",
+          "label": "NOT_ENOUGH_INFO",
+          "pred": "REFUTED",
+          "confidence": 0.9
+        },
+        {
+          "id": "G028",
+          "label": "SUPPORTED",
+          "pred": "SUPPORTED",
+          "confidence": 0.95
+        },
+        {
+          "id": "G030",
+          "label": "NOT_ENOUGH_INFO",
+          "pred": "REFUTED",
+          "confidence": 0.9
+        },
+        {
+          "id": "G031",
+          "label": "SUPPORTED",
+          "pred": "SUPPORTED",
+          "confidence": 0.95
+        },
+        {
+          "id": "G032",
+          "label": "REFUTED",
+          "pred": "REFUTED",
+          "confidence": 0.9
+        },
+        {
+          "id": "G033",
+          "label": "NOT_ENOUGH_INFO",
+          "pred": "NOT_ENOUGH_INFO",
+          "confidence": 0.6
+        },
+        {
+          "id": "G034",
+          "label": "SUPPORTED",
+          "pred": "SUPPORTED",
+          "confidence": 0.95
+        },
+        {
+          "id": "G035",
+          "label": "REFUTED",
+          "pred": "REFUTED",
+          "confidence": 0.95
+        },
+        {
+          "id": "G036",
+          "label": "NOT_ENOUGH_INFO",
+          "pred": "NOT_ENOUGH_INFO",
+          "confidence": 0.6
+        },
+        {
+          "id": "G037",
+          "label": "SUPPORTED",
+          "pred": "SUPPORTED",
+          "confidence": 0.97
+        },
+        {
+          "id": "G038",
+          "label": "REFUTED",
+          "pred": "REFUTED",
+          "confidence": 0.95
+        },
+        {
+          "id": "G039",
+          "label": "NOT_ENOUGH_INFO",
+          "pred": "NOT_ENOUGH_INFO",
+          "confidence": 0.6
+        },
+        {
+          "id": "G040",
+          "label": "SUPPORTED",
+          "pred": "SUPPORTED",
+          "confidence": 0.97
+        },
+        {
+          "id": "G041",
+          "label": "REFUTED",
+          "pred": "REFUTED",
+          "confidence": 0.95
+        },
+        {
+          "id": "G042",
+          "label": "NOT_ENOUGH_INFO",
+          "pred": "NOT_ENOUGH_INFO",
+          "confidence": 0.6
+        },
+        {
+          "id": "G043",
+          "label": "SUPPORTED",
+          "pred": "SUPPORTED",
+          "confidence": 0.95
+        },
+        {
+          "id": "G044",
+          "label": "REFUTED",
+          "pred": "NOT_ENOUGH_INFO",
+          "confidence": 0.9
+        },
+        {
+          "id": "G045",
+          "label": "NOT_ENOUGH_INFO",
+          "pred": "NOT_ENOUGH_INFO",
+          "confidence": 0.9
+        },
+        {
+          "id": "G046",
+          "label": "SUPPORTED",
+          "pred": "SUPPORTED",
+          "confidence": 0.95
+        },
+        {
+          "id": "G047",
+          "label": "REFUTED",
+          "pred": "REFUTED",
+          "confidence": 0.9
+        },
+        {
+          "id": "G048",
+          "label": "NOT_ENOUGH_INFO",
+          "pred": "NOT_ENOUGH_INFO",
+          "confidence": 0.9
+        },
+        {
+          "id": "G049",
+          "label": "SUPPORTED",
+          "pred": "SUPPORTED",
+          "confidence": 0.95
+        },
+        {
+          "id": "G050",
+          "label": "REFUTED",
+          "pred": "REFUTED",
+          "confidence": 0.95
+        },
+        {
+          "id": "G051",
+          "label": "NOT_ENOUGH_INFO",
+          "pred": "NOT_ENOUGH_INFO",
+          "confidence": 0.5
+        },
+        {
+          "id": "G052",
+          "label": "SUPPORTED",
+          "pred": "SUPPORTED",
+          "confidence": 0.9
+        },
+        {
+          "id": "G053",
+          "label": "REFUTED",
+          "pred": "REFUTED",
+          "confidence": 0.9
+        },
+        {
+          "id": "G054",
+          "label": "NOT_ENOUGH_INFO",
+          "pred": "NOT_ENOUGH_INFO",
+          "confidence": 0.5
+        },
+        {
+          "id": "G055",
+          "label": "SUPPORTED",
+          "pred": "SUPPORTED",
+          "confidence": 0.9
+        },
+        {
+          "id": "G056",
+          "label": "REFUTED",
+          "pred": "REFUTED",
+          "confidence": 0.9
+        },
+        {
+          "id": "G058",
+          "label": "SUPPORTED",
+          "pred": "SUPPORTED",
+          "confidence": 0.9
+        },
+        {
+          "id": "G059",
+          "label": "REFUTED",
+          "pred": "REFUTED",
+          "confidence": 0.9
+        },
+        {
+          "id": "G061",
+          "label": "SUPPORTED",
+          "pred": "SUPPORTED",
+          "confidence": 0.99
+        },
+        {
+          "id": "G062",
+          "label": "REFUTED",
+          "pred": "REFUTED",
+          "confidence": 0.99
+        },
+        {
+          "id": "G063",
+          "label": "NOT_ENOUGH_INFO",
+          "pred": "NOT_ENOUGH_INFO",
+          "confidence": 0.85
+        },
+        {
+          "id": "G064",
+          "label": "SUPPORTED",
+          "pred": "SUPPORTED",
+          "confidence": 0.99
+        },
+        {
+          "id": "G067",
+          "label": "SUPPORTED",
+          "pred": "SUPPORTED",
+          "confidence": 0.99
+        },
+        {
+          "id": "G068",
+          "label": "REFUTED",
+          "pred": "REFUTED",
+          "confidence": 0.99
+        },
+        {
+          "id": "G070",
+          "label": "SUPPORTED",
+          "pred": "SUPPORTED",
+          "confidence": 0.99
+        },
+        {
+          "id": "G071",
+          "label": "REFUTED",
+          "pred": "REFUTED",
+          "confidence": 0.99
+        },
+        {
+          "id": "G073",
+          "label": "SUPPORTED",
+          "pred": "SUPPORTED",
+          "confidence": 0.99
+        },
+        {
+          "id": "G074",
+          "label": "REFUTED",
+          "pred": "REFUTED",
+          "confidence": 0.99
+        },
+        {
+          "id": "G076",
+          "label": "SUPPORTED",
+          "pred": "SUPPORTED",
+          "confidence": 0.99
+        },
+        {
+          "id": "G077",
+          "label": "REFUTED",
+          "pred": "REFUTED",
+          "confidence": 0.99
+        },
+        {
+          "id": "G078",
+          "label": "NOT_ENOUGH_INFO",
+          "pred": "NOT_ENOUGH_INFO",
+          "confidence": 0.6
+        },
+        {
+          "id": "G079",
+          "label": "SUPPORTED",
+          "pred": "SUPPORTED",
+          "confidence": 0.99
+        },
+        {
+          "id": "G080",
+          "label": "REFUTED",
+          "pred": "REFUTED",
+          "confidence": 0.99
+        },
+        {
+          "id": "G082",
+          "label": "SUPPORTED",
+          "pred": "SUPPORTED",
+          "confidence": 0.99
+        },
+        {
+          "id": "G083",
+          "label": "REFUTED",
+          "pred": "REFUTED",
+          "confidence": 0.95
+        },
+        {
+          "id": "G084",
+          "label": "NOT_ENOUGH_INFO",
+          "pred": "NOT_ENOUGH_INFO",
+          "confidence": 0.7
+        },
+        {
+          "id": "G085",
+          "label": "SUPPORTED",
+          "pred": "SUPPORTED",
+          "confidence": 0.98
+        },
+        {
+          "id": "G086",
+          "label": "REFUTED",
+          "pred": "REFUTED",
+          "confidence": 0.95
+        },
+        {
+          "id": "G087",
+          "label": "NOT_ENOUGH_INFO",
+          "pred": "NOT_ENOUGH_INFO",
+          "confidence": 0.65
+        },
+        {
+          "id": "G088",
+          "label": "SUPPORTED",
+          "pred": "SUPPORTED",
+          "confidence": 0.97
+        },
+        {
+          "id": "G089",
+          "label": "REFUTED",
+          "pred": "REFUTED",
+          "confidence": 0.95
+        },
+        {
+          "id": "G090",
+          "label": "NOT_ENOUGH_INFO",
+          "pred": "NOT_ENOUGH_INFO",
+          "confidence": 0.6
+        },
+        {
+          "id": "G091",
+          "label": "SUPPORTED",
+          "pred": "SUPPORTED",
+          "confidence": 0.99
+        },
+        {
+          "id": "G092",
+          "label": "REFUTED",
+          "pred": "REFUTED",
+          "confidence": 0.97
+        },
+        {
+          "id": "G093",
+          "label": "NOT_ENOUGH_INFO",
+          "pred": "NOT_ENOUGH_INFO",
+          "confidence": 0.6
+        },
+        {
+          "id": "G094",
+          "label": "SUPPORTED",
+          "pred": "SUPPORTED",
+          "confidence": 0.98
+        },
+        {
+          "id": "G095",
+          "label": "REFUTED",
+          "pred": "REFUTED",
+          "confidence": 0.95
+        },
+        {
+          "id": "G096",
+          "label": "NOT_ENOUGH_INFO",
+          "pred": "NOT_ENOUGH_INFO",
+          "confidence": 0.55
+        },
+        {
+          "id": "G097",
+          "label": "SUPPORTED",
+          "pred": "SUPPORTED",
+          "confidence": 0.97
+        },
+        {
+          "id": "G099",
+          "label": "NOT_ENOUGH_INFO",
+          "pred": "NOT_ENOUGH_INFO",
+          "confidence": 0.6
+        },
+        {
+          "id": "G100",
+          "label": "SUPPORTED",
+          "pred": "SUPPORTED",
+          "confidence": 0.99
+        },
+        {
+          "id": "G101",
+          "label": "REFUTED",
+          "pred": "REFUTED",
+          "confidence": 0.99
+        },
+        {
+          "id": "G103",
+          "label": "SUPPORTED",
+          "pred": "SUPPORTED",
+          "confidence": 0.99
+        },
+        {
+          "id": "G104",
+          "label": "REFUTED",
+          "pred": "REFUTED",
+          "confidence": 0.99
+        },
+        {
+          "id": "G105",
+          "label": "NOT_ENOUGH_INFO",
+          "pred": "NOT_ENOUGH_INFO",
+          "confidence": 0.7
+        },
+        {
+          "id": "G106",
+          "label": "SUPPORTED",
+          "pred": "NOT_ENOUGH_INFO",
+          "confidence": 0.6
+        },
+        {
+          "id": "G107",
+          "label": "REFUTED",
+          "pred": "NOT_ENOUGH_INFO",
+          "confidence": 0.6
+        },
+        {
+          "id": "G108",
+          "label": "NOT_ENOUGH_INFO",
+          "pred": "NOT_ENOUGH_INFO",
+          "confidence": 0.6
+        },
+        {
+          "id": "G109",
+          "label": "SUPPORTED",
+          "pred": "SUPPORTED",
+          "confidence": 0.99
+        },
+        {
+          "id": "G110",
+          "label": "REFUTED",
+          "pred": "REFUTED",
+          "confidence": 0.99
+        },
+        {
+          "id": "G111",
+          "label": "NOT_ENOUGH_INFO",
+          "pred": "NOT_ENOUGH_INFO",
+          "confidence": 0.8
+        },
+        {
+          "id": "G112",
+          "label": "SUPPORTED",
+          "pred": "SUPPORTED",
+          "confidence": 0.99
+        },
+        {
+          "id": "G113",
+          "label": "REFUTED",
+          "pred": "REFUTED",
+          "confidence": 0.99
+        },
+        {
+          "id": "G114",
+          "label": "NOT_ENOUGH_INFO",
+          "pred": "NOT_ENOUGH_INFO",
+          "confidence": 0.8
+        },
+        {
+          "id": "G115",
+          "label": "SUPPORTED",
+          "pred": "SUPPORTED",
+          "confidence": 0.99
+        },
+        {
+          "id": "G116",
+          "label": "REFUTED",
+          "pred": "REFUTED",
+          "confidence": 0.99
+        },
+        {
+          "id": "G117",
+          "label": "NOT_ENOUGH_INFO",
+          "pred": "NOT_ENOUGH_INFO",
+          "confidence": 0.9
+        }
+      ]
+    }
+  },
+  "prompt_version": "verify/v2"
+}

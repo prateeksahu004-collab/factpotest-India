@@ -1,0 +1,106 @@
+{
+  "suite": "stance_llm",
+  "generated_at": "2026-11-10T17:38:46Z",
+  "model": "openai/gpt-oss-20b",
+  "prompt": "stance-zero-shot/v2",
+  "n": 395,
+  "vs_audited_labels": {
+    "n": 395,
+    "accuracy": 0.8203,
+    "macro_f1": 0.7501,
+    "per_class": {
+      "Oppose": {
+        "precision": 0.7424,
+        "recall": 0.7101,
+        "f1-score": 0.7259,
+        "support": 69.0
+      },
+      "Neutral": {
+        "precision": 0.6176,
+        "recall": 0.6462,
+        "f1-score": 0.6316,
+        "support": 65.0
+      },
+      "Support": {
+        "precision": 0.8927,
+        "recall": 0.8927,
+        "f1-score": 0.8927,
+        "support": 261.0
+      }
+    },
+    "confusion_matrix": {
+      "labels": [
+        "Oppose",
+        "Neutral",
+        "Support"
+      ],
+      "matrix": [
+        [
+          49,
+          10,
+          10
+        ],
+        [
+          5,
+          42,
+          18
+        ],
+        [
+          12,
+          16,
+          233
+        ]
+      ]
+    }
+  },
+  "vs_original_generator_labels": {
+    "n": 395,
+    "accuracy": 0.5215,
+    "macro_f1": 0.4208,
+    "per_class": {
+      "Oppose": {
+        "precision": 0.3182,
+        "recall": 0.2121,
+        "f1-score": 0.2545,
+        "support": 99.0
+      },
+      "Neutral": {
+        "precision": 0.3529,
+        "recall": 0.338,
+        "f1-score": 0.3453,
+        "support": 71.0
+      },
+      "Support": {
+        "precision": 0.6169,
+        "recall": 0.7156,
+        "f1-score": 0.6626,
+        "support": 225.0
+      }
+    },
+    "confusion_matrix": {
+      "labels": [
+        "Oppose",
+        "Neutral",
+        "Support"
+      ],
+      "matrix": [
+        [
+          21,
+          19,
+          59
+        ],
+        [
+          6,
+          24,
+          41
+        ],
+        [
+          39,
+          25,
+          161
+        ]
+      ]
+    }
+  },
+  "tokens_per_opinion": 117.7
+}

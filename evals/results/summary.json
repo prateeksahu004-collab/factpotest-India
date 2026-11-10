@@ -1,0 +1,361 @@
+{
+  "endtoend": {
+    "suite": "endtoend",
+    "generated_at": "2026-11-10T17:39:21Z",
+    "n_scored": 100,
+    "protests_covered": [
+      1,
+      2,
+      3
+    ],
+    "misinformation": {
+      "opinions_with_injected_false_claim": 32,
+      "opinions_accurate_fact": 32,
+      "opinions_no_fact": 35,
+      "recall_refuted_flag": 0.5938,
+      "recall_wilson_95ci": [
+        0.4226,
+        0.7448
+      ],
+      "false_alarm_rate_accurate_fact": 0.25,
+      "false_alarm_wilson_95ci": [
+        0.1325,
+        0.4211
+      ],
+      "false_alarm_rate_no_fact": 0.0286,
+      "auc_score_accurate_vs_false": 0.5884,
+      "mean_score": {
+        "false_fact": 55.3,
+        "accurate_fact": 62.9,
+        "no_fact": 52.4
+      }
+    },
+    "claims_extracted_per_opinion": 1.3,
+    "verdict_distribution": {
+      "SUPPORTED": 61,
+      "REFUTED": 31,
+      "NOT_ENOUGH_INFO": 38
+    },
+    "llm_stance_from_analyze_v2_prompt": {
+      "n": 100,
+      "accuracy": 0.44,
+      "macro_f1": 0.4267,
+      "per_class": {
+        "Oppose": {
+          "precision": 0.2222,
+          "recall": 0.2308,
+          "f1-score": 0.2264,
+          "support": 26.0
+        },
+        "Neutral": {
+          "precision": 0.4359,
+          "recall": 0.85,
+          "f1-score": 0.5763,
+          "support": 20.0
+        },
+        "Support": {
+          "precision": 0.6176,
+          "recall": 0.3889,
+          "f1-score": 0.4773,
+          "support": 54.0
+        }
+      },
+      "confusion_matrix": {
+        "labels": [
+          "Oppose",
+          "Neutral",
+          "Support"
+        ],
+        "matrix": [
+          [
+            6,
+            8,
+            12
+          ],
+          [
+            2,
+            17,
+            1
+          ],
+          [
+            19,
+            14,
+            21
+          ]
+        ]
+      }
+    },
+    "score_bias_audit_by_declared_stance": {
+      "medians": {
+        "Oppose": 60.0,
+        "Neutral": 54.0,
+        "Support": 63.0
+      },
+      "means": {
+        "Oppose": 55.92,
+        "Neutral": 54.9,
+        "Support": 57.96
+      },
+      "n": {
+        "Oppose": 26,
+        "Neutral": 20,
+        "Support": 54
+      },
+      "kruskal_h": 0.118,
+      "kruskal_p": 0.9425307387324772,
+      "mannwhitney_u": 720.5,
+      "mannwhitney_p": 0.8531013081376008,
+      "rank_biserial": 0.0264
+    },
+    "pipeline_latency_ms_per_opinion_median": 12286.1
+  },
+  "retrieval": {
+    "suite": "retrieval",
+    "generated_at": "2026-11-10T16:33:31Z",
+    "n_queries": 75,
+    "kb_chunks": 760,
+    "note": "relaxed counts the gold passage's overlapping neighbours (+/-1 chunk) as hits",
+    "results": {
+      "bm25": {
+        "recall@1": 0.7733,
+        "recall@3": 0.9733,
+        "recall@5": 1.0,
+        "relaxed_recall@1": 0.92,
+        "relaxed_recall@3": 0.9733,
+        "relaxed_recall@5": 1.0,
+        "mrr@10": 0.8778
+      },
+      "dense": {
+        "recall@1": 0.6533,
+        "recall@3": 0.9733,
+        "recall@5": 1.0,
+        "relaxed_recall@1": 0.8533,
+        "relaxed_recall@3": 0.9733,
+        "relaxed_recall@5": 1.0,
+        "mrr@10": 0.8104
+      },
+      "hybrid": {
+        "recall@1": 0.7733,
+        "recall@3": 0.9733,
+        "recall@5": 1.0,
+        "relaxed_recall@1": 0.9067,
+        "relaxed_recall@3": 0.9733,
+        "relaxed_recall@5": 1.0,
+        "mrr@10": 0.8733
+      }
+    }
+  },
+  "retrieval_paraphrase": {
+    "suite": "retrieval_paraphrase",
+    "generated_at": "2026-11-10T16:37:06Z",
+    "n_queries": 75,
+    "kb_chunks": 760,
+    "note": "relaxed counts the gold passage's overlapping neighbours (+/-1 chunk) as hits; queries are heavy paraphrases of the gold claims (different vocabulary, same facts)",
+    "results": {
+      "bm25": {
+        "recall@1": 0.68,
+        "recall@3": 0.9333,
+        "recall@5": 0.9867,
+        "relaxed_recall@1": 0.8667,
+        "relaxed_recall@3": 0.9467,
+        "relaxed_recall@5": 0.9867,
+        "mrr@10": 0.8146
+      },
+      "dense": {
+        "recall@1": 0.6133,
+        "recall@3": 0.96,
+        "recall@5": 0.9867,
+        "relaxed_recall@1": 0.84,
+        "relaxed_recall@3": 0.9733,
+        "relaxed_recall@5": 0.9867,
+        "mrr@10": 0.7911
+      },
+      "hybrid": {
+        "recall@1": 0.7467,
+        "recall@3": 0.9733,
+        "recall@5": 0.9867,
+        "relaxed_recall@1": 0.9333,
+        "relaxed_recall@3": 0.9733,
+        "relaxed_recall@5": 0.9867,
+        "mrr@10": 0.8589
+      }
+    }
+  },
+  "stance_label_audit": {
+    "annotator": "qwen/qwen3.8-27b",
+    "labelled": 400,
+    "missing": 0,
+    "manual_audit_n": 21,
+    "silver_vs_manual_accuracy": 0.9524,
+    "silver_vs_manual_kappa": 0.8727,
+    "generator_vs_manual_accuracy": 0.5714,
+    "generator_vs_silver_agreement": 0.53,
+    "generator_vs_silver_kappa": 0.1419
+  },
+  "stance_llm": {
+    "suite": "stance_llm",
+    "generated_at": "2026-11-10T17:38:46Z",
+    "model": "openai/gpt-oss-20b",
+    "prompt": "stance-zero-shot/v2",
+    "n": 395,
+    "vs_audited_labels": {
+      "n": 395,
+      "accuracy": 0.8203,
+      "macro_f1": 0.7501,
+      "per_class": {
+        "Oppose": {
+          "precision": 0.7424,
+          "recall": 0.7101,
+          "f1-score": 0.7259,
+          "support": 69.0
+        },
+        "Neutral": {
+          "precision": 0.6176,
+          "recall": 0.6462,
+          "f1-score": 0.6316,
+          "support": 65.0
+        },
+        "Support": {
+          "precision": 0.8927,
+          "recall": 0.8927,
+          "f1-score": 0.8927,
+          "support": 261.0
+        }
+      },
+      "confusion_matrix": {
+        "labels": [
+          "Oppose",
+          "Neutral",
+          "Support"
+        ],
+        "matrix": [
+          [
+            49,
+            10,
+            10
+          ],
+          [
+            5,
+            42,
+            18
+          ],
+          [
+            12,
+            16,
+            233
+          ]
+        ]
+      }
+    },
+    "vs_original_generator_labels": {
+      "n": 395,
+      "accuracy": 0.5215,
+      "macro_f1": 0.4208,
+      "per_class": {
+        "Oppose": {
+          "precision": 0.3182,
+          "recall": 0.2121,
+          "f1-score": 0.2545,
+          "support": 99.0
+        },
+        "Neutral": {
+          "precision": 0.3529,
+          "recall": 0.338,
+          "f1-score": 0.3453,
+          "support": 71.0
+        },
+        "Support": {
+          "precision": 0.6169,
+          "recall": 0.7156,
+          "f1-score": 0.6626,
+          "support": 225.0
+        }
+      },
+      "confusion_matrix": {
+        "labels": [
+          "Oppose",
+          "Neutral",
+          "Support"
+        ],
+        "matrix": [
+          [
+            21,
+            19,
+            59
+          ],
+          [
+            6,
+            24,
+            41
+          ],
+          [
+            39,
+            25,
+            161
+          ]
+        ]
+      }
+    },
+    "tokens_per_opinion": 117.7
+  },
+  "verification": {
+    "suite": "verification",
+    "generated_at": "2026-11-10T16:59:09Z",
+    "configs": {
+      "hybrid_k3__gpt-oss-20b": {
+        "accuracy": 0.9333,
+        "macro_f1": 0.9291,
+        "per_class": {
+          "SUPPORTED": {
+            "precision": 1.0,
+            "recall": 0.9744,
+            "f1-score": 0.987,
+            "support": 39.0
+          },
+          "REFUTED": {
+            "precision": 0.8947,
+            "recall": 0.9444,
+            "f1-score": 0.9189,
+            "support": 36.0
+          },
+          "NOT_ENOUGH_INFO": {
+            "precision": 0.8966,
+            "recall": 0.8667,
+            "f1-score": 0.8814,
+            "support": 30.0
+          }
+        },
+        "confusion_matrix": {
+          "labels": [
+            "SUPPORTED",
+            "REFUTED",
+            "NOT_ENOUGH_INFO"
+          ],
+          "matrix": [
+            [
+              38,
+              0,
+              1
+            ],
+            [
+              0,
+              34,
+              2
+            ],
+            [
+              0,
+              4,
+              26
+            ]
+          ]
+        },
+        "n": 105,
+        "model": "openai/gpt-oss-20b",
+        "missing": 0,
+        "tokens_per_claim": 647.8,
+        "seconds_per_claim_incl_rate_limit": 7.12
+      }
+    },
+    "prompt_version": "verify/v2"
+  }
+}

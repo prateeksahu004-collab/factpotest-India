@@ -1,0 +1,18 @@
+{
+  "drafted": 117,
+  "kept": 105,
+  "dropped": {
+    "G006": "KB elsewhere says police used tear gas on Republic Day (at ITO); NEI label ambiguous",
+    "G029": "'more than 50 trains' is entailed by 'more than 350', so not actually refuted",
+    "G057": "not a claim (noun phrase)",
+    "G060": "not a claim (noun phrase)",
+    "G065": "passage is silent on Maharashtra, so NEI rather than REFUTED",
+    "G066": "ambiguous: passage implies an official suspension, borderline REFUTED",
+    "G069": "meta-statement about the passage, not a world claim",
+    "G072": "meta-statement about the passage",
+    "G075": "conflates a 2023 study with a 2016 date; label ambiguous",
+    "G081": "meta-statement about the passage",
+    "G098": "a different reason is not a contradiction; label ambiguous",
+    "G102": "underspecified subject ('the company'); not verifiable as written"
+  }
+}

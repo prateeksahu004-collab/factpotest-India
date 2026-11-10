@@ -1,0 +1,115 @@
+{
+  "generated_at": "2026-11-10T17:43:33Z",
+  "ground_truth_campaign_posts": 24,
+  "deployed_threshold": 0.88,
+  "time_window_minutes": 180,
+  "threshold_sweep": {
+    "0.8": {
+      "flagged": 27,
+      "true_positives": 24,
+      "precision": 0.8889,
+      "recall": 1.0,
+      "f1": 0.9412,
+      "clusters": 4
+    },
+    "0.84": {
+      "flagged": 24,
+      "true_positives": 24,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "clusters": 3
+    },
+    "0.88": {
+      "flagged": 24,
+      "true_positives": 24,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "clusters": 3
+    },
+    "0.92": {
+      "flagged": 24,
+      "true_positives": 24,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "clusters": 3
+    },
+    "0.95": {
+      "flagged": 24,
+      "true_positives": 24,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "clusters": 3
+    }
+  },
+  "ablation_without_time_window": {
+    "flagged": 42,
+    "true_positives": 24,
+    "precision": 0.5714,
+    "recall": 1.0,
+    "f1": 0.7273
+  },
+  "clusters": [
+    {
+      "member_ids": [
+        "fb805cc7-8e4a-5b6b-99eb-5d4db9ccf99c",
+        "cc4d4542-cd65-5cb9-ae59-96372ed79bac",
+        "fcb75e78-e77f-5d9b-a620-7887c2caaa21",
+        "70e3fd03-9f08-5282-aace-7d05d426f302",
+        "f760342e-5053-5e3d-93f8-50e79b83f335",
+        "edd73f43-8908-54b6-b13e-c639645c3843",
+        "df782cf4-8e13-5421-921c-701aa2a4201b",
+        "55638b7e-8269-55a8-952d-fb2ac1f07e65"
+      ],
+      "protest_id": 6,
+      "mean_similarity": 0.9646,
+      "span_minutes": 45.0,
+      "distinct_authors": 8,
+      "dominant_stance": "Oppose"
+    },
+    {
+      "member_ids": [
+        "f71c7090-c63d-558b-81df-fc65ab74d801",
+        "f1cded98-b9c6-5b3c-82ce-10a9aba98da5",
+        "623f6726-7e14-5a13-b664-c3a8b5fac45f",
+        "1617546c-8c35-5c85-b806-1b9826f9a960",
+        "5a296e73-ecab-5740-baef-7ee851a9af90",
+        "5a4240ac-b1a8-54c6-9b3a-8146712f8044",
+        "600e4cb8-6887-5261-bc81-fcb25b64a779",
+        "df6d8ee1-06ef-52c5-82cd-2eca48bcaa4f"
+      ],
+      "protest_id": 9,
+      "mean_similarity": 0.9751,
+      "span_minutes": 75.0,
+      "distinct_authors": 8,
+      "dominant_stance": "Oppose"
+    },
+    {
+      "member_ids": [
+        "1ff302d4-6672-5236-99e0-4598a654cab8",
+        "ed578a71-9a25-5efe-b042-a9b7364f608c",
+        "3b0f10c8-ffa1-517f-a281-50ca8bd124ce",
+        "ae980047-0914-556f-9911-461bceb8d518",
+        "297708a0-dc2b-53a2-9a8d-19a722bf527d",
+        "c4ceef0c-f040-517b-933e-34b628e833bd",
+        "747e8270-0695-5a53-b5f9-a835cf470378",
+        "bfa60cd5-9872-556e-9fe9-d94224cacf59"
+      ],
+      "protest_id": 3,
+      "mean_similarity": 0.9608,
+      "span_minutes": 71.0,
+      "distinct_authors": 8,
+      "dominant_stance": "Support"
+    }
+  ],
+  "organic_duplication_rate@0.95": 0.01,
+  "legacy_v1_seed_audit": {
+    "opinions": 1002,
+    "duplication_rate@0.95": 0.7964,
+    "unique_texts_exact": 968,
+    "note": "v1 demo data was template-generated with random scores; this audit is why it was replaced"
+  }
+}

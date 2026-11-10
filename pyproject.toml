@@ -1,0 +1,17 @@
+[project]
+name = "factprotest"
+version = "2.0.0"
+description = "Claim-level fact-checking, explainable credibility scoring and agentic analysis of public opinion on Indian protests"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 125
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+ignore = ["E501", "B905"]

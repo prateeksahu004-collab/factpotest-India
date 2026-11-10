@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "title": "Farm Laws Protest — Repeal of 3 Agricultural Acts",
+    "description": "Lakhs of farmers, mainly from Punjab, Haryana and UP, protested at Delhi borders for over a year demanding repeal of three controversial farm laws passed by the central government. Farmers argued the laws would eliminate MSP and hand over agriculture to corporations.",
+    "category": "Politics",
+    "level": "Central",
+    "location": "Delhi Borders / Pan-India",
+    "date_started": "November 2020",
+    "status": "Resolved",
+    "outcome": "Government repealed all three farm laws on November 19, 2021. Prime Minister Modi announced the decision on Gurpurab. Farmers ended their 13-month protest at Delhi borders shortly after.",
+    "created_at": "2026-10-31T12:57:00.922137"
+  },
+  {
+    "id": 2,
+    "title": "NEET Paper Leak Protest — Students Demand Justice",
+    "description": "Thousands of medical aspirants across India took to streets after allegations of paper leaks in the NEET-UG 2024 examination. Students demanded cancellation of the exam, a CBI probe, and accountability of exam conducting body NTA.",
+    "category": "Social",
+    "level": "Central",
+    "location": "Pan-India",
+    "date_started": "June 2024",
+    "status": "Ongoing",
+    "outcome": null,
+    "created_at": "2026-10-31T12:57:00.922137"
+  },
+  {
+    "id": 3,
+    "title": "Agnipath Scheme Protest — Youth Against Military Recruitment Changes",
+    "description": "Youth and students across multiple states protested violently against the Agnipath short-term military recruitment scheme. Protestors demanded scrapping of the scheme saying it removes job security and pension benefits for armed forces aspirants.",
+    "category": "Social",
+    "level": "Central",
+    "location": "Bihar, UP, Haryana, MP",
+    "date_started": "June 2022",
+    "status": "Ongoing",
+    "outcome": null,
+    "created_at": "2026-10-31T12:57:00.922137"
+  },
+  {
+    "id": 4,
+    "title": "Wrestlers Protest — Indian Athletes Demand Action Against WFI Chief",
+    "description": "Star wrestlers including Vinesh Phogat, Bajrang Punia and Sakshi Malik protested at Jantar Mantar demanding arrest of Wrestling Federation of India chief Brij Bhushan Sharan Singh on sexual harassment charges.",
+    "category": "Social",
+    "level": "Central",
+    "location": "New Delhi",
+    "date_started": "January 2023",
+    "status": "Ongoing",
+    "outcome": null,
+    "created_at": "2026-10-31T12:57:00.922137"
+  },
+  {
+    "id": 5,
+    "title": "Sonam Wangchuk Ladakh Statehood Hunger Strike",
+    "description": "Climate activist and innovator Sonam Wangchuk went on multiple hunger strikes demanding statehood for Ladakh, inclusion in the Sixth Schedule of the Constitution, and job reservations for locals to protect the region from demographic change.",
+    "category": "Politics",
+    "level": "Central",
+    "location": "Leh, Ladakh",
+    "date_started": "March 2024",
+    "status": "Ongoing",
+    "outcome": null,
+    "created_at": "2026-10-31T12:57:00.922137"
+  },
+  {
+    "id": 6,
+    "title": "CAA Protests — Against Citizenship Amendment Act",
+    "description": "Massive nationwide protests erupted against the Citizenship Amendment Act which grants citizenship to non-Muslim minorities from Pakistan, Bangladesh and Afghanistan. Protesters argued it discriminates on the basis of religion and violates the Constitution.",
+    "category": "Politics",
+    "level": "Central",
+    "location": "Pan-India",
+    "date_started": "December 2019",
+    "status": "Resolved",
+    "outcome": "The Citizenship Amendment Act rules were notified in March 2024, implementing the law. The government maintained its position throughout protests. Legal challenges continue in the Supreme Court.",
+    "created_at": "2026-10-31T12:57:00.922137"
+  },
+  {
+    "id": 7,
+    "title": "Delhi Air Pollution Protest — Right to Breathe Clean Air",
+    "description": "Citizens, environmentalists and students in Delhi-NCR protested demanding emergency action on severe air pollution caused by stubble burning, vehicular emissions and industrial pollution. AQI consistently crossing 400 triggered multiple protests.",
+    "category": "Environment",
+    "level": "State",
+    "location": "Delhi-NCR",
+    "date_started": "November 2023",
+    "status": "Ongoing",
+    "outcome": null,
+    "created_at": "2026-10-31T12:57:00.922137"
+  },
+  {
+    "id": 8,
+    "title": "Manipur Violence Protest — Demand for Peace and Justice",
+    "description": "Thousands of citizens across India and abroad protested the ethnic violence between Meitei and Kuki communities in Manipur that left over 200 dead and 60,000 displaced. Protestors demanded central government intervention and justice for victims.",
+    "category": "Social",
+    "level": "State",
+    "location": "Manipur / Pan-India",
+    "date_started": "May 2023",
+    "status": "Ongoing",
+    "outcome": null,
+    "created_at": "2026-10-31T12:57:00.922137"
+  },
+  {
+    "id": 9,
+    "title": "Anti-Adani Protest — Demand for Parliamentary Investigation",
+    "description": "Opposition parties, students and civil society groups held protests demanding a Joint Parliamentary Committee probe into the Adani Group following Hindenburg Research report alleging stock manipulation and fraud worth billions.",
+    "category": "Economy",
+    "level": "Central",
+    "location": "Pan-India",
+    "date_started": "February 2023",
+    "status": "Ongoing",
+    "outcome": null,
+    "created_at": "2026-10-31T12:57:00.922137"
+  },
+  {
+    "id": 10,
+    "title": "BEST Bus Workers Strike — Mumbai Transport Crisis",
+    "description": "Thousands of BEST bus workers went on indefinite strike demanding salary hikes, regularisation of contractual workers and better working conditions. The strike paralysed public transport for lakhs of Mumbai commuters for over a week.",
+    "category": "Economy",
+    "level": "State",
+    "location": "Mumbai, Maharashtra",
+    "date_started": "January 2022",
+    "status": "Ongoing",
+    "outcome": null,
+    "created_at": "2026-10-31T12:57:00.922137"
+  }
+]

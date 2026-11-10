@@ -1,0 +1,265 @@
+{
+  "generated_at": "2026-11-10T17:29:04Z",
+  "protocol": "leave-one-protest-out cross-validation (10 folds, train on 9 protests, test on the unseen one)",
+  "n": 400,
+  "label_distribution": {
+    "Neutral": 65,
+    "Oppose": 71,
+    "Support": 264
+  },
+  "deployed_model": "tfidf",
+  "models": {
+    "tfidf_word+char_logreg": {
+      "n": 400,
+      "accuracy": 0.61,
+      "macro_f1": 0.4023,
+      "per_class": {
+        "Oppose": {
+          "precision": 0.3556,
+          "recall": 0.2254,
+          "f1-score": 0.2759,
+          "support": 71.0
+        },
+        "Neutral": {
+          "precision": 0.2727,
+          "recall": 0.1385,
+          "f1-score": 0.1837,
+          "support": 65.0
+        },
+        "Support": {
+          "precision": 0.6801,
+          "recall": 0.8295,
+          "f1-score": 0.7474,
+          "support": 264.0
+        }
+      },
+      "confusion_matrix": {
+        "labels": [
+          "Oppose",
+          "Neutral",
+          "Support"
+        ],
+        "matrix": [
+          [
+            16,
+            4,
+            51
+          ],
+          [
+            4,
+            9,
+            52
+          ],
+          [
+            25,
+            20,
+            219
+          ]
+        ]
+      },
+      "fold_macro_f1_mean": 0.375,
+      "fold_macro_f1_std": 0.1365
+    },
+    "bge_small_embedding_logreg": {
+      "n": 400,
+      "accuracy": 0.4625,
+      "macro_f1": 0.4022,
+      "per_class": {
+        "Oppose": {
+          "precision": 0.2687,
+          "recall": 0.507,
+          "f1-score": 0.3512,
+          "support": 71.0
+        },
+        "Neutral": {
+          "precision": 0.2471,
+          "recall": 0.3231,
+          "f1-score": 0.28,
+          "support": 65.0
+        },
+        "Support": {
+          "precision": 0.7072,
+          "recall": 0.4848,
+          "f1-score": 0.5753,
+          "support": 264.0
+        }
+      },
+      "confusion_matrix": {
+        "labels": [
+          "Oppose",
+          "Neutral",
+          "Support"
+        ],
+        "matrix": [
+          [
+            36,
+            6,
+            29
+          ],
+          [
+            20,
+            21,
+            24
+          ],
+          [
+            78,
+            58,
+            128
+          ]
+        ]
+      },
+      "fold_macro_f1_mean": 0.3655,
+      "fold_macro_f1_std": 0.0997
+    }
+  },
+  "head_to_head_vs_llm_on_scored_subset": {
+    "n": 100,
+    "tfidf_word+char_logreg": {
+      "n": 100,
+      "accuracy": 0.54,
+      "macro_f1": 0.4006,
+      "per_class": {
+        "Oppose": {
+          "precision": 0.5,
+          "recall": 0.2308,
+          "f1-score": 0.3158,
+          "support": 26.0
+        },
+        "Neutral": {
+          "precision": 0.375,
+          "recall": 0.15,
+          "f1-score": 0.2143,
+          "support": 20.0
+        },
+        "Support": {
+          "precision": 0.5625,
+          "recall": 0.8333,
+          "f1-score": 0.6716,
+          "support": 54.0
+        }
+      },
+      "confusion_matrix": {
+        "labels": [
+          "Oppose",
+          "Neutral",
+          "Support"
+        ],
+        "matrix": [
+          [
+            6,
+            2,
+            18
+          ],
+          [
+            0,
+            3,
+            17
+          ],
+          [
+            6,
+            3,
+            45
+          ]
+        ]
+      }
+    },
+    "bge_small_embedding_logreg": {
+      "n": 100,
+      "accuracy": 0.42,
+      "macro_f1": 0.3707,
+      "per_class": {
+        "Oppose": {
+          "precision": 0.3103,
+          "recall": 0.3462,
+          "f1-score": 0.3273,
+          "support": 26.0
+        },
+        "Neutral": {
+          "precision": 0.2632,
+          "recall": 0.25,
+          "f1-score": 0.2564,
+          "support": 20.0
+        },
+        "Support": {
+          "precision": 0.5385,
+          "recall": 0.5185,
+          "f1-score": 0.5283,
+          "support": 54.0
+        }
+      },
+      "confusion_matrix": {
+        "labels": [
+          "Oppose",
+          "Neutral",
+          "Support"
+        ],
+        "matrix": [
+          [
+            9,
+            2,
+            15
+          ],
+          [
+            6,
+            5,
+            9
+          ],
+          [
+            14,
+            12,
+            28
+          ]
+        ]
+      }
+    },
+    "llm_zero_shot (openai/gpt-oss-20b)": {
+      "n": 100,
+      "accuracy": 0.44,
+      "macro_f1": 0.4267,
+      "per_class": {
+        "Oppose": {
+          "precision": 0.2222,
+          "recall": 0.2308,
+          "f1-score": 0.2264,
+          "support": 26.0
+        },
+        "Neutral": {
+          "precision": 0.4359,
+          "recall": 0.85,
+          "f1-score": 0.5763,
+          "support": 20.0
+        },
+        "Support": {
+          "precision": 0.6176,
+          "recall": 0.3889,
+          "f1-score": 0.4773,
+          "support": 54.0
+        }
+      },
+      "confusion_matrix": {
+        "labels": [
+          "Oppose",
+          "Neutral",
+          "Support"
+        ],
+        "matrix": [
+          [
+            6,
+            8,
+            12
+          ],
+          [
+            2,
+            17,
+            1
+          ],
+          [
+            19,
+            14,
+            21
+          ]
+        ]
+      }
+    }
+  }
+}

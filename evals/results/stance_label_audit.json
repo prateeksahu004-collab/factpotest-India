@@ -1,0 +1,11 @@
+{
+  "annotator": "qwen/qwen3.8-27b",
+  "labelled": 400,
+  "missing": 0,
+  "manual_audit_n": 21,
+  "silver_vs_manual_accuracy": 0.9524,
+  "silver_vs_manual_kappa": 0.8727,
+  "generator_vs_manual_accuracy": 0.5714,
+  "generator_vs_silver_agreement": 0.53,
+  "generator_vs_silver_kappa": 0.1419
+}

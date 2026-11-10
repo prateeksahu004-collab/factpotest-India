@@ -1,0 +1,1090 @@
+{
+  "1": [
+    {
+      "cluster": 2,
+      "label": "Strategic political concession on farm laws",
+      "summary": "The repeal is viewed by some as a strategic political move rather than a genuine policy reversal.",
+      "size": 18,
+      "keywords": [
+        "november",
+        "repeal",
+        "farm",
+        "farmers",
+        "farmer",
+        "policy",
+        "small",
+        "movement"
+      ],
+      "stance_mix": {
+        "Neutral": 5,
+        "Oppose": 3,
+        "Support": 10
+      },
+      "examples": [
+        {
+          "ref": "O:b2571664",
+          "text": "From an analytical standpoint, the repeal of the three farm acts on 19 November 2021, announced during Gurpurab, appears to be a strategic political concession rather than a genuine policy reversal; however, the claim that the protest ended"
+        },
+        {
+          "ref": "O:aa3eafb7",
+          "text": "I run a small tea stall in Bhubaneswar and saw many farmers from Odisha travel to Delhi with their tractors. The 13‑month protest ended after the government finally repealed the three farm laws on November 19, 2021, which gave us hope for b"
+        },
+        {
+          "ref": "O:05c7dd14",
+          "text": "The repeal of the three farm acts on November 19, 2021, represents a pragmatic response to the concerns of the agrarian sector. By restoring the status quo, the government acknowledges the need for policy stability, which is essential for b"
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "label": "Mixed reactions to farm law repeal",
+      "summary": "Opinions range from support for the repeal to concerns about future policy direction.",
+      "size": 12,
+      "keywords": [
+        "laws",
+        "mein",
+        "farm",
+        "farm laws",
+        "hum",
+        "tha",
+        "laws repeal",
+        "liye"
+      ],
+      "stance_mix": {
+        "Support": 7,
+        "Neutral": 3,
+        "Oppose": 2
+      },
+      "examples": [
+        {
+          "ref": "O:97d25c91",
+          "text": "Mujhe lagta hai ki farm laws ka repeal hamare desh ke liye faydemand tha; Punjab aur Haryana ke kisano ne Jio SIMs ko surrender karke dusri networks ko support kiya tha, jaisa ki December 2020 mein dekha gaya."
+        },
+        {
+          "ref": "O:876a4fe9",
+          "text": "Modi ne 19 November ko farm laws ko repeal kar diya, ab hum log dekhte hain ki aage ka road kya hota hai, thoda patience zaroori hai."
+        },
+        {
+          "ref": "O:c5a2091e",
+          "text": "Mere jaise nurse ko bhi laga ki farmers ke liye yeh laws bahut unfair hain, unki mehnat ka respect hona chahiye. Hum sab milke unka support karte hain, bhaiyon aur behno. #FarmersProtest"
+        }
+      ]
+    },
+    {
+      "cluster": 0,
+      "label": "Government finally repeals farm laws",
+      "summary": "The government’s decision to repeal the farm laws after a year of protests is seen as a response to public pressure.",
+      "size": 10,
+      "keywords": [
+        "finally",
+        "year",
+        "time",
+        "finally listened",
+        "listened",
+        "drama",
+        "great",
+        "great finally"
+      ],
+      "stance_mix": {
+        "Oppose": 6,
+        "Support": 4
+      },
+      "examples": [
+        {
+          "ref": "O:0bf6d3b2",
+          "text": "Repealing the laws after a year of nonsense shows the government finally listened!"
+        },
+        {
+          "ref": "O:a1db117b",
+          "text": "Wow, finally the government listened—after a whole year of drama they just *repealed* the laws. Guess they realized you can't force farmers to sell their souls!"
+        },
+        {
+          "ref": "O:1a34877c",
+          "text": "At 66, I’m relieved the farm laws were scrapped – finally the government listened to real people, not just corporate lobbyists. #SupportFarmers"
+        }
+      ]
+    }
+  ],
+  "1_silhouette": {
+    "2": 0.1299,
+    "3": 0.1745,
+    "4": 0.1599,
+    "5": 0.1459,
+    "6": 0.1476
+  },
+  "2": [
+    {
+      "cluster": 0,
+      "label": "NEET Paper Leak Protest",
+      "summary": "Students demand justice and accountability after the NEET exam paper leak, calling for systemic reforms to protect meritocracy.",
+      "size": 29,
+      "keywords": [
+        "leak",
+        "neet",
+        "students",
+        "paper",
+        "exam",
+        "neet leak",
+        "paper leak",
+        "hua"
+      ],
+      "stance_mix": {
+        "Support": 22,
+        "Oppose": 4,
+        "Neutral": 3
+      },
+      "examples": [
+        {
+          "ref": "O:fa37ef36",
+          "text": "Sarcasm aside, the NEET leak shows how the elite protect their own. If the government truly cared, they'd stop these paper leaks and let honest students compete."
+        },
+        {
+          "ref": "O:b4aa4572",
+          "text": "Just saw the news on NEET leaks—what a mess! We need accountability now, not later. #JusticeForStudents"
+        },
+        {
+          "ref": "O:6a107038",
+          "text": "As a journalism student, I see the NEET leak as a symptom of deeper systemic issues. While protests are justified, we must also demand concrete policy changes, not just slogans, to protect meritocracy."
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "label": "Court and Payment Discrepancies",
+      "summary": "Debate over alleged payments and court rulings surrounding the NEET leak, with conflicting reports on amounts and dates.",
+      "size": 11,
+      "keywords": [
+        "lakh",
+        "june",
+        "court",
+        "july",
+        "marks",
+        "teacher",
+        "neet",
+        "supreme court"
+      ],
+      "stance_mix": {
+        "Support": 5,
+        "Neutral": 5,
+        "Oppose": 1
+      },
+      "examples": [
+        {
+          "ref": "O:82f6068b",
+          "text": "Delhi vibes: heard the teacher only took ₹5 lakh, not the massive amount the news keeps shouting about—makes the whole scandal feel a bit exaggerated."
+        },
+        {
+          "ref": "O:d1430b92",
+          "text": "While the Supreme Court’s order to IIT Delhi on 22 July appears procedural, the claim that the NEET results were announced on 10 June is factually incorrect; they were actually declared on 4 June 2024, ten days earlier than scheduled, which"
+        },
+        {
+          "ref": "O:435544a1",
+          "text": "Being from Odisha, I see both sides; the leak is serious, but I heard that only about ten students paid around ₹20 lakh each to get the paper, which seems lower than what the media suggests."
+        }
+      ]
+    }
+  ],
+  "2_silhouette": {
+    "2": 0.2136,
+    "3": 0.1193,
+    "4": 0.1328,
+    "5": 0.155,
+    "6": 0.1336
+  },
+  "3": [
+    {
+      "cluster": 2,
+      "label": "Employment Opportunities vs. Job Security",
+      "summary": "While Agnipath may create ancillary jobs, critics fear short‑term contracts will undermine long‑term employment and pension security.",
+      "size": 18,
+      "keywords": [
+        "scheme",
+        "agnipath",
+        "term",
+        "agnipath scheme",
+        "short term",
+        "short",
+        "employment",
+        "pension"
+      ],
+      "stance_mix": {
+        "Oppose": 5,
+        "Neutral": 7,
+        "Support": 6
+      },
+      "examples": [
+        {
+          "ref": "O:dc84e53f",
+          "text": "From an educational perspective, the Agnipath scheme presents both opportunities and challenges. While it introduces a short‑term service model that could diversify career pathways for youth, it also raises questions about long‑term job sec"
+        },
+        {
+          "ref": "O:0ba4ab38",
+          "text": "From a daily‑wage worker's viewpoint, the Agnipath scheme could actually create ancillary jobs in logistics, catering, and training sectors. The announced 5% reservation for Group C positions may open up government jobs for many of us, and "
+        },
+        {
+          "ref": "O:d8329828",
+          "text": "Although the government claims Agnipath will create opportunities, I worry that short‑term contracts will leave many daily‑wage workers without security. A stable pension and long‑term employment are essential for our families' future."
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "label": "Youth Concerns Over Pension",
+      "summary": "Young people worry that the short‑term nature of Agnipath leaves them without a reliable pension, calling for policy adjustments.",
+      "size": 12,
+      "keywords": [
+        "youth",
+        "chahiye",
+        "isliye",
+        "pension",
+        "liye",
+        "saal",
+        "mil",
+        "scheme"
+      ],
+      "stance_mix": {
+        "Support": 6,
+        "Oppose": 6
+      },
+      "examples": [
+        {
+          "ref": "O:827e7bc0",
+          "text": "Mujhe lagta hai ki yeh scheme youth ko short term job deti hai, lekin pension ka issue serious hai, isliye humein policy ko thoda aur tweak karna chahiye."
+        },
+        {
+          "ref": "O:3997db92",
+          "text": "Mujhe lagta hai ki Agnipath se youth ko short term job mil sakti hai, lekin pension ka issue serious hai, isliye humein policy ko thoda aur tweak karna chahiye."
+        },
+        {
+          "ref": "O:6f8d5394",
+          "text": "Yeh Agnipath ka plan sirf short term recruitment hai, pension ki guarantee nahi, isliye youth ko confusion hota hai. Government ko transparent hona chahiye."
+        }
+      ]
+    },
+    {
+      "cluster": 0,
+      "label": "Disruption of Public Transport",
+      "summary": "The Agnipath scheme has led to widespread train cancellations and traffic congestion, highlighting its impact on daily life.",
+      "size": 10,
+      "keywords": [
+        "trains",
+        "security",
+        "agnipath",
+        "cancelled",
+        "job security",
+        "scheme",
+        "job",
+        "trains cancel"
+      ],
+      "stance_mix": {
+        "Support": 4,
+        "Oppose": 4,
+        "Neutral": 2
+      },
+      "examples": [
+        {
+          "ref": "O:532c3e4f",
+          "text": "The recent Bharat Bandh demonstrated the scheme's disruptive impact: more than 600 trains were cancelled nationwide, and heavy traffic snarled the Delhi‑Gurgaon Expressway. Such widespread disruption underscores how the Agnipath scheme thre"
+        },
+        {
+          "ref": "O:07f147a6",
+          "text": "Seeing 350+ trains canceled because of protests shows how disruptive Agnipath is becoming. It’s affecting everyday life, and we need a solution fast!"
+        },
+        {
+          "ref": "O:0ab85758",
+          "text": "Oh great, another scheme that promises change while Section 144 is slapped on Rajasthan and Punjab. Maybe the government thinks security forces need a break from protests, not the youth. #sarcasm"
+        }
+      ]
+    }
+  ],
+  "3_silhouette": {
+    "2": 0.1582,
+    "3": 0.1836,
+    "4": 0.1742,
+    "5": 0.171,
+    "6": 0.1357
+  },
+  "4": [
+    {
+      "cluster": 0,
+      "label": "Wrestlers’ Protest for Safety",
+      "summary": "The wrestlers’ protest is seen as a necessary step to demand protection and justice for athletes.",
+      "size": 20,
+      "keywords": [
+        "mein",
+        "tha",
+        "wrestlers",
+        "police",
+        "hum",
+        "chahiye",
+        "lekin",
+        "main"
+      ],
+      "stance_mix": {
+        "Support": 14,
+        "Neutral": 4,
+        "Oppose": 2
+      },
+      "examples": [
+        {
+          "ref": "O:af963ae6",
+          "text": "Mujhe lagta hai ki wrestlers ka protest ek zaroori kadam hai. Hum sab ko unki suraksha aur insaaf ki maang sunni chahiye, chahe hum kisi bhi kshetra se ho. Samaj ke roop mein humein unka saath dena chahiye, bina kisi bhay ke."
+        },
+        {
+          "ref": "O:31546e57",
+          "text": "Wrestlers ki protest sahi hai, hum sabko unke saath khada hona chahiye. Jan 2023 mein Vinesh, Sakshi aur Bajrang ne Jantar Mantar par sit-in ki thi aur 28 April 2023 ko Supreme Court ke baad Delhi Police ne do FIRs file kiye."
+        },
+        {
+          "ref": "O:4d178c60",
+          "text": "Wrestlers ke protest ko dekh kar lagta hai ki police ne 'special' treatment di, jaise ki unke liye koi VIP pass ho!"
+        }
+      ]
+    },
+    {
+      "cluster": 2,
+      "label": "Public Support for Wrestlers",
+      "summary": "Citizens across professions rally behind the wrestlers, calling for transparency and accountability against powerful interests.",
+      "size": 11,
+      "keywords": [
+        "wrestlers",
+        "great",
+        "silence",
+        "political",
+        "politicians",
+        "medals",
+        "singh",
+        "athletes"
+      ],
+      "stance_mix": {
+        "Oppose": 2,
+        "Support": 8,
+        "Neutral": 1
+      },
+      "examples": [
+        {
+          "ref": "O:8a5bfc30",
+          "text": "As a former serviceman, I respect law and order, but the wrestlers' courage highlights a failure in protecting victims. The silence of leaders only fuels distrust, and we must demand transparent investigations, not political shielding."
+        },
+        {
+          "ref": "O:5b67f130",
+          "text": "As a doctor, I support the wrestlers. Jan 2023 mein protest hua, aur 28 April 2023 ko police ne do FIRs file ki, including under POCSO. #JusticeForAthletes"
+        },
+        {
+          "ref": "O:31a86fe4",
+          "text": "Being a small farmer, I see the wrestlers' stand as a fight for dignity. When those in power protect the powerful instead of the vulnerable, it hurts all of us. We need justice, not silence, for a healthier society."
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "label": "Legal Response to Protest",
+      "summary": "The Supreme Court’s intervention led to the filing of two FIRs, highlighting procedural delays in addressing abuse.",
+      "size": 9,
+      "keywords": [
+        "firs",
+        "april",
+        "supreme",
+        "court",
+        "supreme court",
+        "wfi",
+        "january",
+        "process"
+      ],
+      "stance_mix": {
+        "Neutral": 4,
+        "Support": 4,
+        "Oppose": 1
+      },
+      "examples": [
+        {
+          "ref": "O:5b9c6d57",
+          "text": "From an analytical perspective, the wrestlers' sit-in in January 2023 highlighted systemic abuse within the WFI. The Supreme Court's intervention on 28 April 2023, leading to two FIRs—one under the POCSO Act—demonstrates judicial responsive"
+        },
+        {
+          "ref": "O:e7535a38",
+          "text": "While supporting the wrestlers, I note that the protest began in January 2023 and the Supreme Court prompted Delhi Police to register two FIRs on 28 April 2023. This balanced approach calls for due process while ensuring the victims' voices"
+        },
+        {
+          "ref": "O:52759ca6",
+          "text": "The protests underscore systemic issues: FIRs were only registered after Supreme Court intervention, despite legal mandates for immediate filing in cognizable offenses like sexual harassment. Moreover, the wrestlers faced arrests that were "
+        }
+      ]
+    }
+  ],
+  "4_silhouette": {
+    "2": 0.2153,
+    "3": 0.2161,
+    "4": 0.1529,
+    "5": 0.1365,
+    "6": 0.1123
+  },
+  "5": [
+    {
+      "cluster": 0,
+      "label": "Sonam Wangchuk Hunger Strike",
+      "summary": "Citizens support Sonam Wangchuk’s hunger strike for Ladakh statehood and local autonomy.",
+      "size": 21,
+      "keywords": [
+        "strike",
+        "sonam",
+        "hunger",
+        "hunger strike",
+        "ladakh",
+        "wangchuk",
+        "sonam wangchuk",
+        "local"
+      ],
+      "stance_mix": {
+        "Neutral": 5,
+        "Support": 13,
+        "Oppose": 3
+      },
+      "examples": [
+        {
+          "ref": "O:69528d5a",
+          "text": "I’ve seen reports that during the Ladakh protests in 2021, Sonam Wangchuk attempted a hunger strike demanding more autonomy and statehood for Ladakh. While I’m not sure how effective it’s been, the intention seems clear."
+        },
+        {
+          "ref": "O:608c29df",
+          "text": "As a young doctor from Karnataka, I totally back Sonam’s hunger strike. Ladakh needs its own state status and job reservations for locals – it’s about preserving our heritage and future."
+        },
+        {
+          "ref": "O:5ea47fd1",
+          "text": "Sonam started his hunger strike back in February 2023, but the real push began only last month. #LadakhStatehood #SupportHisCause"
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "label": "Local Inspiration for Statehood",
+      "summary": "People in Ladakh and surrounding areas view Sonam’s fast and march as motivating for statehood and sustainable development.",
+      "size": 13,
+      "keywords": [
+        "mein",
+        "tha",
+        "sonam",
+        "tak",
+        "ladakh",
+        "jab",
+        "lekin",
+        "karna"
+      ],
+      "stance_mix": {
+        "Support": 10,
+        "Neutral": 2,
+        "Oppose": 1
+      },
+      "examples": [
+        {
+          "ref": "O:e82899b5",
+          "text": "Mera gaon mein paani ki kami se ladna roz ka kaam hai, toh Ladakh ki statehood ke liye Sonam ki bhookhiharna kaafi prerna deti hai. Sabko ek jut ho kar isko support karna chahiye!"
+        },
+        {
+          "ref": "O:a5dbc6b1",
+          "text": "Leh mein Sonam ka 21‑din ka fast aur uske baad ki 1000‑km march Delhi tak, sab kuch dekha maine. Aise logon ko support karna humari zimmedari hai, especially jab environment ki baat ho!"
+        },
+        {
+          "ref": "O:bbf1ddcb",
+          "text": "Yaar, Sonam Wangchuk ka 21 din ka fast March 2024 mein hua tha, aur uske baad 9 rounds ki talks abhi tak inconclusive hain. Humko bhi apni education system ko sustainable banane ke liye aise bold moves chahiye!"
+        }
+      ]
+    },
+    {
+      "cluster": 2,
+      "label": "Curfew and Negotiation Cycle",
+      "summary": "Reports describe repeated curfew impositions and resumptions of talks between protest groups and authorities in October.",
+      "size": 6,
+      "keywords": [
+        "october",
+        "curfew",
+        "september",
+        "talks",
+        "lifted",
+        "lab",
+        "curfew lifted",
+        "october resuming"
+      ],
+      "stance_mix": {
+        "Support": 2,
+        "Neutral": 3,
+        "Oppose": 1
+      },
+      "examples": [
+        {
+          "ref": "O:584acc05",
+          "text": "Wow! The curfew was lifted after three weeks but then re‑imposed from 17 to 24 Oct. Still, the talks resumed on 22 Oct—hopeful vibes! #Ladakh #Peace"
+        },
+        {
+          "ref": "O:a0883cfe",
+          "text": "The recent protest dynamics, such as the LAB and KDA pulling out on 30 September and 6 October then resuming on 22 October, indicate a pattern of negotiation. However, the claim that the curfew was never lifted is inaccurate; it was indeed "
+        },
+        {
+          "ref": "O:ee39ac98",
+          "text": "From a commercial perspective, the repeated suspension and reinstatement of talks—evident when both the LAB and KDA resumed negotiations on 22 October after a three‑week curfew—reflects a volatile environment that could affect regional trad"
+        }
+      ]
+    }
+  ],
+  "5_silhouette": {
+    "2": 0.1665,
+    "3": 0.2035,
+    "4": 0.1659,
+    "5": 0.1424,
+    "6": 0.1162
+  },
+  "6": [
+    {
+      "cluster": 1,
+      "label": "Opposition to CAA citing exclusion of Muslims",
+      "summary": "Critics argue the CAA violates secular principles by excluding Muslims and raising constitutional concerns.",
+      "size": 22,
+      "keywords": [
+        "law",
+        "caa",
+        "december",
+        "passed",
+        "sabha",
+        "rajya",
+        "muslims",
+        "rajya sabha"
+      ],
+      "stance_mix": {
+        "Support": 16,
+        "Oppose": 3,
+        "Neutral": 3
+      },
+      "examples": [
+        {
+          "ref": "O:792ea232",
+          "text": "The Citizenship Amendment Act, passed by the Lok Sabha on 10 December 2019 with 311 votes in favor and subsequently cleared by the Rajya Sabha on 11 December, raises serious constitutional concerns. While the government argues it addresses "
+        },
+        {
+          "ref": "O:d80c44e8",
+          "text": "While I understand the government's intent to protect persecuted minorities, the exclusion of Muslims from the CAA contradicts India's secular constitution, as highlighted by Kerala's Supreme Court plea. Nonetheless, the law's passage on 10"
+        },
+        {
+          "ref": "O:ed1f9e8d",
+          "text": "Oh great, another law that pretends to help minorities while ignoring Muslims—just what we needed after the Parliament rushed the CAA through on 10 December 2019 with 311 votes for and 80 against."
+        }
+      ]
+    },
+    {
+      "cluster": 0,
+      "label": "Support for CAA amid police crackdown",
+      "summary": "Some residents feel the CAA protects minorities but fear police action during protests.",
+      "size": 18,
+      "keywords": [
+        "caa",
+        "law",
+        "lekin",
+        "mil",
+        "police",
+        "humare",
+        "gaya",
+        "shop"
+      ],
+      "stance_mix": {
+        "Oppose": 6,
+        "Support": 10,
+        "Neutral": 2
+      },
+      "examples": [
+        {
+          "ref": "O:89c4598e",
+          "text": "Just saw the report: 21,500 people charged in 15 FIRs in Kanpur over CAA protests. Our community in UP is bearing the brunt, but we still believe the law protects minorities who truly need refuge. #SupportCAA"
+        },
+        {
+          "ref": "O:f9e667aa",
+          "text": "Mere shop pe daily customers aate hain, aur jab CAA lagu hua toh kuch logon ko legal paperwork ka tension kam hua. Lekin aaj kal police ki crackdown se hum sab ko darr lagta hai, especially jab humare employees ko detention ka samna karna p"
+        },
+        {
+          "ref": "O:40dfd7e5",
+          "text": "As a nurse who has tended to patients from both sides of the border, I felt a chill when I saw the news that police arrested 705 people in Uttar Pradesh for protesting the CAA. My own cousin, who migrated from Bangladesh in 2012, now worrie"
+        }
+      ]
+    }
+  ],
+  "6_silhouette": {
+    "2": 0.147,
+    "3": 0.1459,
+    "4": 0.1134,
+    "5": 0.1022,
+    "6": 0.1333
+  },
+  "7": [
+    {
+      "cluster": 0,
+      "label": "Delhi AQI Accuracy and Water Spraying",
+      "summary": "Citizens highlight discrepancies in reported AQI values and accuse government tankers of spraying water to lower readings.",
+      "size": 15,
+      "keywords": [
+        "aqi",
+        "november",
+        "delhi",
+        "air",
+        "november aqi",
+        "tankers",
+        "public",
+        "water"
+      ],
+      "stance_mix": {
+        "Support": 13,
+        "Oppose": 1,
+        "Neutral": 1
+      },
+      "examples": [
+        {
+          "ref": "O:321be5aa",
+          "text": "When I traveled from Lucknow to Delhi last winter, the smog was so thick that my shop’s customers complained of headaches. I read that on November 18, 2024 the AQI was 491, but actually it was 471, which shows the reports are sometimes exag"
+        },
+        {
+          "ref": "O:4c235630",
+          "text": "The data is clear: on 18 November 2024 Delhi recorded a \"severe plus\" AQI of 491, the highest this year, and reports suggest BJP‑run tankers were seen spraying water near monitoring stations to lower the numbers. Such manipulation undermine"
+        },
+        {
+          "ref": "O:4c2a2fb5",
+          "text": "As a lawyer who grew up in Lucknow, I still recall the choking winters when my son could barely play outside. The Supreme Court’s reprimand in November 2021, when AQI hit 362, gave us hope that the courts can force real change. My clients n"
+        }
+      ]
+    },
+    {
+      "cluster": 2,
+      "label": "Protests for Power Plant Shutdowns",
+      "summary": "Activists demand shutting down power plants and stricter emission norms to combat Delhi’s smog.",
+      "size": 13,
+      "keywords": [
+        "air",
+        "delhi",
+        "smog",
+        "right",
+        "clean air",
+        "clean",
+        "power",
+        "shut"
+      ],
+      "stance_mix": {
+        "Support": 9,
+        "Oppose": 4
+      },
+      "examples": [
+        {
+          "ref": "O:14ab596b",
+          "text": "Yo, these protests are lit! We gotta shut down 7 out of 11 power plants by the 30th of Oct, otherwise Delhi will turn into a permanent smog cloud! #BreatheEasy"
+        },
+        {
+          "ref": "O:555c8b26",
+          "text": "Oh great, another protest because the city finally decided to close schools and halt trucks. Maybe next year they'll actually fix the smog before it kills us all!"
+        },
+        {
+          "ref": "O:27b0653e",
+          "text": "Watching the protests from my hostel, I feel hopeful that collective voices can push Delhi's government to enforce stricter emission norms and protect our lungs. #AirQuality #Delhi"
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "label": "CNG Buses and Air Quality Concerns",
+      "summary": "Residents criticize Delhi’s plan to add CNG buses, arguing it won’t improve air quality without broader measures.",
+      "size": 12,
+      "keywords": [
+        "mein",
+        "tha",
+        "humari",
+        "tak",
+        "saans",
+        "kiya",
+        "par",
+        "band"
+      ],
+      "stance_mix": {
+        "Neutral": 4,
+        "Support": 7,
+        "Oppose": 1
+      },
+      "examples": [
+        {
+          "ref": "O:5a3662e7",
+          "text": "Yaar, hum sab ko pata hai ki Delhi ne 1000 extra CNG buses add karne ka plan announce kiya tha. Par jab tak ye buses road pe nahi aati, humari saans hi kharab hoti rahegi. Pollution se ladna humari responsibility hai, warna humari health bh"
+        },
+        {
+          "ref": "O:a21460fd",
+          "text": "Maine roz subah 6 baje construction site par kaam shuru kiya, aur jab main break mein bahar aata hoon to itni dhool aur dhuan hota hai ke saans lena mushkil ho jata hai. Government ne 1000 extra CNG buses lane ka wada kiya hai, lekin hum ab"
+        },
+        {
+          "ref": "O:29a1fa41",
+          "text": "Bhai, Delhi ne diesel gaadiyon ko 10 saal se zyada purane hone par band kar diya hai, aur petrol gaadiyon ko 15 saal se zyada chalana mana hai. Yeh steps lete hue bhi humari saans abhi bhi dukh se bhari hai—aur hum sabko milke aur kadam bad"
+        }
+      ]
+    }
+  ],
+  "7_silhouette": {
+    "2": 0.1792,
+    "3": 0.1809,
+    "4": 0.1531,
+    "5": 0.1338,
+    "6": 0.1265
+  },
+  "8": [
+    {
+      "cluster": 1,
+      "label": "Call for Justice and Peace",
+      "summary": "Opinion holders urge swift action from the central government and the Supreme Court to secure justice and restore peace in Manipur.",
+      "size": 26,
+      "keywords": [
+        "manipur",
+        "justice",
+        "need",
+        "court",
+        "peace",
+        "violence",
+        "supreme court",
+        "supreme"
+      ],
+      "stance_mix": {
+        "Support": 24,
+        "Oppose": 2
+      },
+      "examples": [
+        {
+          "ref": "O:709b0c3a",
+          "text": "Seeing the news about Manipur breaks my heart. We need peace and justice for all families affected, and the Centre should step in quickly. #StopTheViolence"
+        },
+        {
+          "ref": "O:6dfca8b6",
+          "text": "Seeing the protests reminds me why we need justice for Manipur. The Supreme Court even warned it would step in if the govt stalled – that's a sign hope isn’t lost. #Peace #Justice"
+        },
+        {
+          "ref": "O:78a2d5e1",
+          "text": "Seeing the news about 77 Kukis killed in the first week makes my heart ache. We need peace, justice, and the central government to act fast. #Manipur #PeaceNow"
+        }
+      ]
+    },
+    {
+      "cluster": 0,
+      "label": "Escalating Ethnic Conflict",
+      "summary": "Citizens describe rising violence and loss of life in Manipur, highlighting ethnic tensions and the urgent need for intervention.",
+      "size": 14,
+      "keywords": [
+        "manipur",
+        "intervention",
+        "right",
+        "crisis",
+        "kukis",
+        "meitei",
+        "kuki",
+        "great"
+      ],
+      "stance_mix": {
+        "Oppose": 3,
+        "Support": 11
+      },
+      "examples": [
+        {
+          "ref": "O:7cdad8fa",
+          "text": "The recent protests reflect deep concern over the Manipur violence, where as of 9 May the state reported over 60 deaths and at least twenty‑seven churches were destroyed, according to journalist Moses Lianzachin. The demand for central inte"
+        },
+        {
+          "ref": "O:20ab2b4c",
+          "text": "As an ex-serviceman from Manipur, I can confirm that the violence has escalated beyond isolated incidents. Reuters reported 77 Kukis and 10 Meiteis dead in the first week, and by 18 May Kuki legislators demanded a separate administration. B"
+        },
+        {
+          "ref": "O:f8d61df2",
+          "text": "The Manipur unrest, as documented, resulted in over 60 fatalities by 9 May and the destruction of at least twenty‑seven churches, indicating a severe escalation of ethnic tensions. The government's description of the situation as \"relativel"
+        }
+      ]
+    }
+  ],
+  "8_silhouette": {
+    "2": 0.1094,
+    "3": 0.0816,
+    "4": 0.0558,
+    "5": 0.0449,
+    "6": 0.0386
+  },
+  "9": [
+    {
+      "cluster": 1,
+      "label": "Parliamentary Inquiry into NDTV Deal",
+      "summary": "Opinion holders urge a parliamentary committee to examine Adani’s acquisition of NDTV shares, citing lack of founder consent and potential regulatory breaches.",
+      "size": 23,
+      "keywords": [
+        "parliamentary",
+        "adani",
+        "probe",
+        "evidence",
+        "sebi",
+        "parliamentary committee",
+        "committee",
+        "ndtv"
+      ],
+      "stance_mix": {
+        "Support": 22,
+        "Neutral": 1
+      },
+      "examples": [
+        {
+          "ref": "O:6f30fa26",
+          "text": "As a nurse in Madhya Pradesh I worry that the Adani Group's purchase of a 29.18% stake in NDTV, followed by an open offer for another 26%, was done without informing the founders. This lack of transparency threatens editorial independence a"
+        },
+        {
+          "ref": "O:3955b90a",
+          "text": "Just read that Adani took 29.18% of NDTV without the founders’ consent. Not sure what to think, but a JPC look‑in could clear the air. #StayInformed"
+        },
+        {
+          "ref": "O:1efaca50",
+          "text": "The recent acquisition by the Adani Group of a 29.18% stake in NDTV, coupled with a proposed 26% open offer, was executed via a third party without the consent of the Roys. This raises serious concerns about media independence, especially g"
+        }
+      ]
+    },
+    {
+      "cluster": 0,
+      "label": "Call for Government Probe",
+      "summary": "Citizens demand a government investigation into Adani’s business dealings to ensure transparency and protect public interest.",
+      "size": 17,
+      "keywords": [
+        "adani",
+        "chahiye",
+        "mein",
+        "tha",
+        "lagta",
+        "hum",
+        "sab",
+        "sakta"
+      ],
+      "stance_mix": {
+        "Support": 17
+      },
+      "examples": [
+        {
+          "ref": "O:4bda381e",
+          "text": "Bhai, Adani ki controversies ko dekh ke lagta hai ki sarkar ko jaldi se ek probe karni chahiye. Warna hum logon ki mehnat ka fayda nahi hoga, aur market mein trust toot jayega."
+        },
+        {
+          "ref": "O:6641159a",
+          "text": "Mujhe lagta hai ki jab tak hum sab milkar is tarah ki badi companies ki financial dealings ko transparent nahi banayenge, tab tak aam aadmi ka bhavishya surakshit nahi ho sakta. Humein sarkar se poori janch ki maang karni chahiye, bina kisi"
+        },
+        {
+          "ref": "O:4cd95f01",
+          "text": "Main ek doctor hoon Bihar se, aur mujhe lagta hai ki LIC ne Adani Ports mein $1 billion invest kiya tha, jo ki public fund ka misuse hai. Government ko ispar investigation karni chahiye."
+        }
+      ]
+    }
+  ],
+  "9_silhouette": {
+    "2": 0.1997,
+    "3": 0.1781,
+    "4": 0.1154,
+    "5": 0.1027,
+    "6": 0.1275
+  },
+  "10": [
+    {
+      "cluster": 4,
+      "label": "Daily Commute Impact",
+      "summary": "Commuters report significant delays due to the strike.",
+      "size": 14,
+      "keywords": [
+        "buses",
+        "workers",
+        "bus",
+        "best",
+        "best buses",
+        "wages",
+        "wage",
+        "city"
+      ],
+      "stance_mix": {
+        "Support": 8,
+        "Oppose": 3,
+        "Neutral": 3
+      },
+      "examples": [
+        {
+          "ref": "O:ad5a9c09",
+          "text": "Having grown up in Hyderabad and now preparing for the civil services, I rely on BEST buses for daily commutes to my coaching centre. The recent strike hit me hard because I couldn't reach the library on time, showing how crucial these work"
+        },
+        {
+          "ref": "O:8b60f4fc",
+          "text": "As a daily-wage worker, I rely on BEST buses to get to jobs across the city. Their fight for better wages and regularisation is crucial, especially since past strikes like the August 2017 one involved about 36,000 employees and affected 3,5"
+        },
+        {
+          "ref": "O:eb823b62",
+          "text": "As a lawyer who's seen Mumbai's streets change, I think the bus workers deserve fair pay. Their strike shows they’ve had enough and we all benefit when they get proper wages."
+        }
+      ]
+    },
+    {
+      "cluster": 3,
+      "label": "Historical Strike Context",
+      "summary": "The strike echoes past labour disputes and calls for dialogue.",
+      "size": 10,
+      "keywords": [
+        "strike",
+        "best",
+        "best strike",
+        "workers",
+        "disruption",
+        "ongoing",
+        "economic",
+        "prolonged"
+      ],
+      "stance_mix": {
+        "Neutral": 6,
+        "Support": 3,
+        "Oppose": 1
+      },
+      "examples": [
+        {
+          "ref": "O:12f6e20b",
+          "text": "The recent BEST strike reminds me that labour disputes aren’t new; in June 2026 BEST workers defied a temporary court order and halted services. While the strike is ongoing, it highlights the need for dialogue between the corporation and em"
+        },
+        {
+          "ref": "O:bb79d4eb",
+          "text": "Analyzing the impact of the ongoing BEST strike, the data indicates a significant disruption to commuter flow, especially for small businesses reliant on timely transport. While the workers' demands for salary hikes and regularisation are u"
+        },
+        {
+          "ref": "O:e6ea0657",
+          "text": "Having served in government, I understand budgeting pressures, yet the BEST workers’ demand for regularisation and better conditions is legitimate. Historically, BEST has faced major labour disputes, like the August 2017 strike where about "
+        }
+      ]
+    },
+    {
+      "cluster": 2,
+      "label": "Public Disruption and Support",
+      "summary": "Public feels disrupted but supports wage hikes.",
+      "size": 7,
+      "keywords": [
+        "strike",
+        "lekin",
+        "hum",
+        "mein",
+        "chahiye",
+        "salary",
+        "best",
+        "salary hike"
+      ],
+      "stance_mix": {
+        "Support": 4,
+        "Oppose": 2,
+        "Neutral": 1
+      },
+      "examples": [
+        {
+          "ref": "O:097b3c06",
+          "text": "Yeh BEST ka strike sirf apni hi nahi, hum sabki livelihood ko hurt kar raha hai. Unka claim ki 1926 se bus chal rahi hai, par wo kabhi workers ko proper salary nahi diye. Unko immediate termination chahiye!"
+        },
+        {
+          "ref": "O:31990c6b",
+          "text": "BEST ki strike se hum sabki daily life affect ho rahi hai. Bus drivers ki salary hike aur regularisation ki maang sahi hai, par is se market ka business bhi down ja raha hai. Hum support karte hain, lekin solution jaldi chahiye."
+        },
+        {
+          "ref": "O:b80a5699",
+          "text": "BEST ke workers ka strike sahi hai, lekin unhone galti se kaha ki 2026 mein 50,000 log strike pe the. Actually, June 2026 mein strike hua tha, lekin exact numbers public nahi hain. Unki maang samajhni chahiye."
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "label": "Service Reliability Concerns",
+      "summary": "Critics argue the strike harms bus service reliability.",
+      "size": 4,
+      "keywords": [
+        "improve service",
+        "reliability",
+        "service reliability",
+        "improve",
+        "perspective",
+        "long",
+        "motor buses",
+        "operating motor"
+      ],
+      "stance_mix": {
+        "Support": 3,
+        "Oppose": 1
+      },
+      "examples": [
+        {
+          "ref": "O:3dbc7cd8",
+          "text": "Support the strike? Sure, if you love watching buses sit idle while people scramble for rickshaws. By the way, BEST was founded in 1950, which clearly shows they’ve never been around long enough to understand workers' needs."
+        },
+        {
+          "ref": "O:09b471af",
+          "text": "From an analytical perspective, supporting the BEST bus workers is justified by historical precedent: the organization began operating motor buses in 1926, expanding public transit capacity. Their long‑standing role as both electricity supp"
+        },
+        {
+          "ref": "O:c6ce7a37",
+          "text": "From a household perspective, the BEST strike highlights systemic issues in public transport labor relations. Although the claim that the first electric double-decker bus was launched in 2021 is inaccurate—the correct year is 2023—this erro"
+        }
+      ]
+    },
+    {
+      "cluster": 5,
+      "label": "Negative Public Sentiment",
+      "summary": "Some view the strike as a nuisance to Mumbai traffic.",
+      "size": 3,
+      "keywords": [
+        "great strike",
+        "great",
+        "mumbai",
+        "mumbai needed",
+        "needed",
+        "right",
+        "strike",
+        "buses"
+      ],
+      "stance_mix": {
+        "Oppose": 3
+      },
+      "examples": [
+        {
+          "ref": "O:7ffb602c",
+          "text": "Oh great, another strike. Because what Mumbai really needed was more empty streets and angry commuters, right?"
+        },
+        {
+          "ref": "O:f0b678d0",
+          "text": "Oh great, another strike – because the only thing Mumbai needs is more traffic, right? Let the bus drivers enjoy their “better conditions” while the rest of us drown in fumes."
+        },
+        {
+          "ref": "O:e4b77b59",
+          "text": "Oh great, another strike! Because stopping 5,000 buses is exactly what Mumbai needed today. (False: the 2017 strike shut down 3,500 buses.)"
+        }
+      ]
+    },
+    {
+      "cluster": 0,
+      "label": "Workers Demand Fair Pay",
+      "summary": "BEST bus workers seek fair wages and job security.",
+      "size": 2,
+      "keywords": [
+        "best workers",
+        "mumbai",
+        "workersrights",
+        "power",
+        "mumbai daily",
+        "need fair",
+        "deserve dues",
+        "power mumbai"
+      ],
+      "stance_mix": {
+        "Support": 2
+      },
+      "examples": [
+        {
+          "ref": "O:e908a7ee",
+          "text": "BEST workers deserve their dues; they power Mumbai daily!"
+        },
+        {
+          "ref": "O:2fbe7b3d",
+          "text": "Supporting the BEST workers! Their strike shows they need fair pay and job security. #WorkersRights #Mumbai"
+        }
+      ]
+    }
+  ],
+  "10_silhouette": {
+    "2": 0.1545,
+    "3": 0.1229,
+    "4": 0.166,
+    "5": 0.1616,
+    "6": 0.1816
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "suite": "retrieval_paraphrase",
+  "generated_at": "2026-11-10T16:37:06Z",
+  "n_queries": 75,
+  "kb_chunks": 760,
+  "note": "relaxed counts the gold passage's overlapping neighbours (+/-1 chunk) as hits; queries are heavy paraphrases of the gold claims (different vocabulary, same facts)",
+  "results": {
+    "bm25": {
+      "recall@1": 0.68,
+      "recall@3": 0.9333,
+      "recall@5": 0.9867,
+      "relaxed_recall@1": 0.8667,
+      "relaxed_recall@3": 0.9467,
+      "relaxed_recall@5": 0.9867,
+      "mrr@10": 0.8146
+    },
+    "dense": {
+      "recall@1": 0.6133,
+      "recall@3": 0.96,
+      "recall@5": 0.9867,
+      "relaxed_recall@1": 0.84,
+      "relaxed_recall@3": 0.9733,
+      "relaxed_recall@5": 0.9867,
+      "mrr@10": 0.7911
+    },
+    "hybrid": {
+      "recall@1": 0.7467,
+      "recall@3": 0.9733,
+      "recall@5": 0.9867,
+      "relaxed_recall@1": 0.9333,
+      "relaxed_recall@3": 0.9733,
+      "relaxed_recall@5": 0.9867,
+      "mrr@10": 0.8589
+    }
+  }
+}

@@ -2,3 +2,10 @@
 __pycache__/
 *.pyc
 .env
+.venv/
+
+.pytest_cache/
+.ruff_cache/
+# legacy v1 seed scripts with hard-coded keys
+bulk_insert.py
+fix_scores.py
