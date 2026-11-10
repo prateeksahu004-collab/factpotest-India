@@ -87,8 +87,10 @@ def page_evaluation() -> None:
     if verification:
         st.dataframe(_table(verification, ["model", "accuracy", "macro_f1", "tokens_per_claim", "missing"]),
                      use_container_width=True)
-        st.caption("Oracle = the gold passage is given directly, which isolates reasoning errors from retrieval errors. "
-                   "Gold claims were drafted by a different model family (Qwen) from source passages and then reviewed.")
+        oracle_note = ("Oracle = the gold passage is given directly, which isolates reasoning errors from retrieval errors. "
+                       if any(name.startswith("oracle") for name in verification) else "")
+        st.caption(oracle_note + "Gold claims were drafted by a different model family (Qwen) from source passages "
+                   "and then reviewed.")
         cm = prod.get("confusion_matrix")
         if cm:
             fig = go.Figure(go.Heatmap(z=cm["matrix"], x=[f"pred {x}" for x in cm["labels"]], y=[f"true {y}" for y in cm["labels"]],

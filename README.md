@@ -12,6 +12,14 @@ statistics layer turn the opinions into analysis that journalists, researchers a
 > v1 (FORGE Buildathon, Nov 2026) asked an LLM for a single 0–100 number. v2 replaces that with a measurable pipeline:
 > retrieval, verification, ML and an evaluation harness. Every metric below is reproducible from this repo.
 
+## Screenshots
+
+| Claim-level fact-check with cited evidence | Statistics with uncertainty and a scorer-bias audit |
+|---|---|
+| ![A refuted claim with its Wikipedia evidence and score breakdown](docs/screenshots/factcheck.jpg) | ![Data Insights: confidence intervals, chi-square test by state, scorer-bias box plot](docs/screenshots/insights.jpg) |
+| **Protest list** | **Model card and evaluation results** |
+| ![Home page listing protests with credibility and stance split](docs/screenshots/home.jpg) | ![Retrieval and verification evaluation tables](docs/screenshots/evals.jpg) |
+
 ## Results
 
 All numbers come from `scripts/run_evals.py` / `scripts/train_models.py`; raw outputs are in
