@@ -30,7 +30,7 @@ from factprotest.ml.stance import summarize  # noqa: E402
 from factprotest.rag.embed import get_embedder  # noqa: E402
 from factprotest.rag.kb import load_kb  # noqa: E402
 from factprotest.rag.retriever import Hit, HybridRetriever  # noqa: E402
-from factprotest.schemas import VERDICTS, BatchStance  # noqa: E402
+from factprotest.schemas import VERDICTS, BatchStance, ClaimVerdict  # noqa: E402
 
 RESULTS = EVAL_DIR / "results"
 GOLD = EVAL_DIR / "gold_claims.jsonl"
@@ -120,6 +120,29 @@ def _verdict_metrics(labels: list[str], preds: list[str]) -> dict[str, Any]:
     }
 
 
+def _cached_verify(llm: LLMClient, name: str, tasks: list[ClaimTask], model: str) -> tuple[dict[str, ClaimVerdict], int]:
+    """Verify in batches, checkpointing each batch so a daily-quota stop loses nothing and a re-run resumes."""
+    path = RESULTS / "verify_cache" / f"{name}.json"
+    done: dict[str, dict[str, Any]] = json.loads(path.read_text()) if path.exists() else {}
+    todo = [t for t in tasks if t.claim_id not in done]
+    newly = 0
+    for start in range(0, len(todo), 8):
+        batch = todo[start:start + 8]
+        try:
+            result = verify(llm, batch, model=model)
+        except LLMError as exc:
+            print(f"{name}: stopped after {len(done)}/{len(tasks)} claims: {str(exc)[:160]}")
+            break
+        done.update({k: v.model_dump() for k, v in result.items()})
+        for task in batch:
+            done.setdefault(task.claim_id, {"claim_id": task.claim_id, "verdict": "NOT_ENOUGH_INFO",
+                                            "confidence": 0.0, "explanation": "verifier returned no verdict"})
+        newly += len(batch)
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(json.dumps(done, ensure_ascii=False))
+    return {k: ClaimVerdict(**v) for k, v in done.items()}, newly
+
+
 def suite_verify(configs: list[str]) -> None:
     gold = load_jsonl(GOLD)
     r = retriever()
@@ -139,15 +162,21 @@ def suite_verify(configs: list[str]) -> None:
         tasks = [ClaimTask(g["id"], g["claim"], h) for g, h in zip(gold, hits)]
         first = len(llm.records)
         start = time.perf_counter()
-        verdicts = verify(llm, tasks, model=model)
+        verdicts, newly_done = _cached_verify(llm, name, tasks, model)
         seconds = time.perf_counter() - start
         calls = list(llm.records)[first:]
-        preds = [verdicts[g["id"]].verdict if g["id"] in verdicts else "NOT_ENOUGH_INFO" for g in gold]
+        if len(verdicts) < len(gold):
+            print(f"{name}: {len(verdicts)}/{len(gold)} claims verified so far (quota); re-run to finish")
+            continue
+        preds = [verdicts[g["id"]].verdict for g in gold]
         labels = [g["label"] for g in gold]
+        previous = out["configs"].get(name, {})
         out["configs"][name] = {
-            **_verdict_metrics(labels, preds), "n": len(gold), "model": model, "missing": sum(g["id"] not in verdicts for g in gold),
-            "tokens_per_claim": round(sum(c.total_tokens for c in calls) / len(gold), 1),
-            "seconds_per_claim_incl_rate_limit": round(seconds / len(gold), 2),
+            **_verdict_metrics(labels, preds), "n": len(gold), "model": model, "missing": 0,
+            "tokens_per_claim": round(sum(c.total_tokens for c in calls) / newly_done, 1) if newly_done
+            else previous.get("tokens_per_claim"),
+            "seconds_per_claim_incl_rate_limit": round(seconds / newly_done, 2) if newly_done
+            else previous.get("seconds_per_claim_incl_rate_limit"),
             "per_claim": [{"id": g["id"], "label": g["label"], "pred": p,
                            "confidence": verdicts[g["id"]].confidence if g["id"] in verdicts else None}
                           for g, p in zip(gold, preds)],
